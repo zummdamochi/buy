@@ -1,0 +1,192 @@
+html{
+  margin:0;
+}
+
+body{
+  margin:0;
+  background:#FAEBD7;
+  font-family: "Open Sans", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+.top{
+  margin:0;
+  background:rgb(77, 76, 76);
+  color:white;
+  width:100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.top h1{
+  font-size:20px;
+  margin:3px auto;
+  width:100%;
+  line-height:2;
+  text-align: center;
+}
+
+.top > h1 > a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.nav{
+  margin:5px auto 0;
+  padding:5px;
+  width:90%;
+  line-height:2;
+  justify-content: space-between;
+}
+
+.nav ul{
+  display:flex;
+  list-style: none;
+  margin:0 auto;
+  padding:0;
+  justify-content: space-between;
+}
+
+.nav li{
+  padding:0 8px;
+  text-align:center;
+  font-size:16px;
+  line-height: 1.8;
+}
+
+.index{
+  font-size:10px;
+}
+
+.nav a{
+  color:white;
+  margin:0 auto;
+  text-decoration: none;
+  padding-bottom:5px;
+}
+
+.nav a:hover{
+  border-bottom:1px white solid;
+}
+
+.img img{
+  margin-top:130px;
+  width:100%;
+  height:100%;
+  opacity: 0.8;
+}
+
+.main{
+  width:200px;
+  height:40px;
+}
+
+.main h1{
+  font-size:25px;
+  line-height: 40px;
+  padding-left:10px;
+  font-weight: normal;
+  background:rgb(230, 247, 5);
+}
+
+.buy{
+  width:100%;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+
+.buy ul{
+  padding:0;
+  margin:16px auto;
+  width:90%;
+  list-style:none;
+}
+
+.buy > ul > li{
+  line-height: 30px;
+  margin:15px auto;
+  width:100%;
+  height:100px;
+}
+
+.buy > ul > li > a{
+  color:rgb(71, 58, 1);
+  text-decoration: none;
+  font-size:20px;
+  font-weight: bold;
+  padding:5px;
+}
+
+.buy > ul > li > a:hover{
+  color:tomato;
+}
+
+.buy > ul > li > p{
+  font-size:16px;
+  line-height: 20px;
+  width:90%;
+  margin:10px 10px 5px 20px;
+}
+ 
+.img2{
+  display:none;
+}
+
+
+footer{
+  width:100%;
+  height:100px;
+  margin-top:50px;
+  color:white;
+  background:rgb(77, 76, 76);
+  }
+
+.name p{
+  font-size:13px;
+  margin:5px auto;
+  padding-top:70px;
+  text-align: center;
+}
+
+@media(min-width:600px){
+  .top h1{
+    font-size:25px;
+  }
+  .nav{
+    margin:10px auto 0;
+    width:80%;
+  }
+  
+  .img img{
+    margin-top:180px;
+  }
+  
+  .nav li {
+    font-size:24px;
+  }
+
+  .select{
+    display:flex;
+  }
+
+  .buy{
+    width:50%;
+    margin:0 auto;
+    padding:20px;
+    box-sizing: border-box;
+  }
+
+  .img2{
+    display:inline-block;
+    width:50%;
+    margin:0 auto;
+  }
+  
+  .img2 img{
+    margin:0;
+    padding:20px;
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+  }
+  
+}  
